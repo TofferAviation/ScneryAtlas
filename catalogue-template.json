@@ -1,0 +1,16 @@
+[
+  {
+    "id": "replace-with-a-unique-product-id",
+    "title": "Replace with the scenery product name",
+    "provider": "Replace with the store name",
+    "developer": "Replace with the developer name",
+    "storeUrl": "https://example.com/replace-with-the-real-product-link",
+    "simulators": ["MSFS 2024", "MSFS 2020", "X-Plane 12", "X-Plane 11"],
+    "icao": "ENGM",
+    "packageName": "replace-with-the-exact-community-package-folder-name",
+    "version": "",
+    "requiredLibraries": [
+      { "name": "Replace with publisher-required library name", "packageName": "replace-with-exact-library-folder-name", "downloadUrl": "https://example.com/replace-with-authorised-library-download-page" }
+    ]
+  }
+]

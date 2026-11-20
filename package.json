@@ -1,0 +1,25 @@
+{
+  "name": "scenery-atlas",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "build": "npm run build:web && dotnet build app/SceneryAtlas.App.csproj -c Release",
+    "preview": "pwsh -NoProfile -File scripts/preview.ps1",
+    "test": "node scripts/check-cloud-transport.mjs && dotnet run --project tests/SceneryAtlas.Tests.csproj -c Release",
+    "start": "dotnet run --project app/SceneryAtlas.App.csproj -c Release --no-build"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.187.0",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  }
+}

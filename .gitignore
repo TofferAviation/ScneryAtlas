@@ -1,0 +1,12 @@
+node_modules/
+bin/
+obj/
+**/artifacts/
+app/Web/
+data/airports-source.csv
+*.user
+.env
+.env.*
+*.pfx
+*.pem
+*.key
